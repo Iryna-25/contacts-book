@@ -1,0 +1,76 @@
+.table-wrapper {
+  width: 100%;
+  justify-content: center;
+}
+  
+.table {
+  display: block;
+  overflow: hidden;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-radius: 10px;
+  white-space: nowrap;
+  max-width: 40%;
+  justify-content: center;
+  margin: auto;
+  table-layout: auto;
+  overflow-x: auto;
+  padding-bottom: 2rem;
+}
+  
+.table thead {
+  background-color: #ccc;
+  color: rgb(47, 46, 46);
+}
+  
+  .table th,
+  .table td {
+    padding: 0.8rem;
+  }
+  
+  .table td {
+    border: 0.5px solid #f7f1f1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: #b5a891;
+  }
+  
+  .table tbody tr:hover {
+    background-color: rosybrown;
+  }
+  
+  .expand {
+    width: 40%;
+  }
+  
+  .label {
+    border-radius: 3px;
+    padding: 0.3rem;
+    color: white;
+  }
+  
+  .label-home {
+    background-color: #5cf05c;
+  }
+
+  .label-family {
+    background-color: #46b946;
+  }
+  
+  .label-hobby {
+    background-color: #2f7e2f;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .actions svg {
+    cursor: pointer;
+  }
+  
+  .delete-btn {
+    margin-right: 0.75rem;
+    color: #e10d05;
+  }
